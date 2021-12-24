@@ -1,0 +1,870 @@
+.t_header_blue {
+    color: var(--blue);
+}
+
+.t_header_orange {
+    color: var(--orange);
+}
+
+.signup_info {
+    color: #F67766
+}
+
+.section_software,
+.about_software,
+.section_features,
+.section_integration,
+.testimonial_section_wrapper {
+    margin-top: 75px;
+    width: 100%;
+}
+
+.t_soft_itm_icon {
+    width: 45px;
+    height: 45px;
+    background: var(--light-blue);
+    display: block;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 60px 0px rgb(38 45 118 / 8%);
+}
+
+.soft_item_body {
+    padding-top: 55px;
+}
+
+.soft_item_body h3 {
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.software_items i {
+    font-size: 22px;
+    color: var(--white);
+    position: absolute;
+    bottom: 14px;
+    right: 13px;
+}
+
+.software_items .calender_color {
+    background-color: var(--orange);
+}
+
+.software_items .users_color {
+    background-color: var(--light-sky);
+}
+
+.soft_itm_list_one,
+.soft_itm_list_tw,
+.soft_itm_list_three {
+    float: left;
+}
+
+.soft_itm_list_one,
+.soft_itm_list_tw {
+    margin-right: 40px;
+}
+
+.about_ski_itms_one {
+    float: left;
+    margin-right: 90px;
+    margin-left: 50px;
+}
+
+.about_ski_itms_two {
+    float: left;
+}
+
+.about_skilline_cont img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.about_skilline_cont {
+    width: 40%;
+    position: relative;
+}
+
+.overlay_background {
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    background-color: var(--black-color);
+    top: 0;
+    left: 0;
+    opacity: .6;
+    border-radius: 10px;
+}
+
+.image_overlay_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image_overlay_content h2 {
+    color: var(--white);
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.image_overlay_content button {
+    background: transparent;
+    border: 0.2px solid var(--white);
+    border-radius: 50px;
+    width: 100%;
+    padding: 12px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.image_overlay_content button:hover {
+    background-color: var(--light-sky);
+    color: var(--white);
+    border: 0.2px solid var(--light-sky);
+}
+
+.section_video {
+    width: 100%;
+    margin-top: 160px;
+}
+
+.t_header_blue {
+    color: var(--blue);
+}
+
+.t_header_orange {
+    color: var(--orange);
+}
+
+.main_container,
+.t_nav_list_wrap,
+.banner_content {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.main_container {
+    margin-top: 70px;
+}
+
+.section_software,
+.about_software {
+    margin-top: 40px;
+}
+
+.section_top_header {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section_content {
+    margin-top: 75px;
+}
+
+.soft_item_body p {
+    padding: 0 24px;
+}
+
+.section_top_header h2 {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.software_items {
+    width: 31%;
+    max-height: 215px;
+    background-color: var(--white);
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 0px 10px 60px 0px rgb(38 45 118 / 8%);
+    padding: 10px;
+    position: relative;
+}
+
+.t_soft_itm_icon {
+    width: 45px;
+    height: 45px;
+    background: var(--light-blue);
+    display: block;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 60px 0px rgb(38 45 118 / 8%);
+}
+
+.soft_item_body {
+    padding-top: 55px;
+}
+
+.soft_item_body h3 {
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.software_items i {
+    font-size: 22px;
+    color: var(--white);
+    position: absolute;
+    bottom: 14px;
+    right: 13px;
+}
+
+.software_items .calender_color {
+    background-color: var(--orange);
+}
+
+.software_items .users_color {
+    background-color: var(--light-sky);
+}
+
+.soft_itm_list_one,
+.soft_itm_list_tw,
+.soft_itm_list_three {
+    float: left;
+}
+
+.soft_itm_list_one,
+.soft_itm_list_tw {
+    margin-right: 40px;
+}
+
+.about_ski_itms_one {
+    float: left;
+    margin-right: 90px;
+}
+
+.about_ski_itms_two {
+    float: left;
+}
+
+.about_skilline_cont img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.about_skilline_cont {
+    width: 40%;
+    position: relative;
+}
+
+.overlay_background {
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    background-color: var(--black-color);
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+
+.image_overlay_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image_overlay_content h2 {
+    color: var(--white);
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.image_overlay_content button {
+    background: transparent;
+    border: 0.2px solid var(--white);
+    border-radius: 50px;
+    width: 100%;
+    padding: 12px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.image_overlay_content button:hover {
+    background-color: var(--light-sky);
+    color: var(--white);
+    border: 0.2px solid var(--light-sky);
+}
+
+.video_desc {
+    width: 40%;
+    margin: 0 auto;
+    float: left;
+    margin-left: 50px;
+}
+
+.video_thumbnail_wrapper {
+    width: 40%;
+    float: right;
+    margin-right: 92px;
+}
+
+.video_thumbnail {
+    max-width: 100%;
+}
+
+.section_video_text {
+    text-align: left;
+}
+
+.feature {
+    margin-top: 100px;
+}
+
+.feature_image {
+    max-width: 100%;
+}
+
+.feature_one_image_wrapper {
+    width: 50%;
+}
+
+.feature_one_description {
+    width: 25%;
+    margin-right: 100px;
+}
+
+.feature_two_image_wrapper {
+    width: 50%;
+    margin-right: 100px;
+}
+
+.feature_two_description {
+    width: 20%;
+    margin-left: 100px;
+}
+
+.feature p {
+    margin-top: 8px;
+}
+
+.feature_three_image_wrapper,
+.feature_five_image_wrapper {
+    width: 50%;
+    margin-right: 100px;
+}
+
+.feature_three_description,
+.feature_five_description {
+    width: 25%;
+    margin-left: 100px;
+}
+
+.feature_four_image_wrapper {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.feature_four_description {
+    width: 25%;
+    margin-right: 100px;
+}
+
+.see_more {
+    width: 100%;
+}
+
+.see_more {
+    width: 12%;
+    margin: 0 auto;
+}
+
+.btn_see_more {
+    border: 1px solid var(--orange);
+    color: var(--orange);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.platform_wrapper {
+    width: 35%;
+    position: relative;
+    float: left;
+}
+
+.integration_description {
+    float: right;
+    width: 45%;
+}
+
+.platform {
+    width: 100px;
+    display: inline-block;
+}
+
+.onedrive,
+.teams {
+    margin-bottom: 50px;
+}
+
+.platform_wrapper>div:not(:last-child) {
+    margin-right: 90px;
+}
+
+.integration_title p {
+    position: relative;
+    margin-left: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+
+.integration_title p::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #ccc;
+    left: -58px;
+    top: 6px;
+}
+
+.tools_content {
+    width: 69%;
+}
+
+.tools_content_tn {
+    margin: 30px 0;
+}
+
+.tools_content_tn a {
+    border: 1px solid var(--orange);
+    color: var(--orange);
+    display: inline-block;
+    text-align: center;
+    padding: 8px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.testimonial_contn_parg p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.testimonial_section {
+    width: 40%;
+    float: left;
+}
+
+.testimonial_cont_img {
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+.testimonial_cont_img img {
+    width: 55%;
+    object-fit: cover;
+}
+
+.test_img_cont {
+    border-radius: 5px;
+    border-left: 8px solid #F67766;
+    position: absolute;
+    top: 80%;
+    left: 30px;
+    padding: 33px;
+    background-color: var(--white);
+    width: 65%;
+    box-shadow: 0px 10px 60px 0px rgb(38 45 118 / 20%);
+}
+
+.slider_icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    opacity: 0.9;
+    background-color: var(--white);
+    box-shadow: 0px 10px 60px 0px rgb(38 45 118 / 20%);
+}
+
+.slider_icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--light-sky);
+}
+
+.test_img_cont p {
+    position: relative;
+}
+
+.test_img_cont p::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+    left: -10px;
+    top: 0;
+}
+
+.tes_cont_ratig {
+    margin-top: 15px;
+}
+
+.tes_cont_ratig span {
+    color: #5F5F7E;
+}
+
+.customer_rating {
+    float: right;
+}
+
+.customer_rating .checked {
+    color: var(--orange);
+}
+
+.news_and_resourses {
+    display: block;
+    margin-top: 200px;
+}
+
+.left_news_content_holder {
+    margin-top: 50px;
+    width: 45%;
+    float: left;
+}
+
+.left_news_content_holder .news_tag {
+    margin: 20px 0;
+    display: inline-block;
+    background-color: var(--orange);
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: #252641;
+}
+
+.left_news_content_holder p {
+    margin: 15px 0;
+}
+
+.new_body_cont {
+    width: 65%;
+}
+
+.new_body_cont a {
+    color: #696984;
+}
+
+.right_news_list_holder {
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+}
+
+.new_list_holder {
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.new_list_holder img {
+    max-width: 35%;
+    float: left;
+    margin-right: 15px;
+}
+
+.list_news_tag_ {
+    position: absolute;
+    left: 90px;
+    top: 80%;
+    background-color: var(--orange);
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: #252641;
+    font-size: 9px;
+}
+
+.new_list_right_holders .new_list_right_holders {
+    width: 70%;
+}
+
+.footer_cont_holder {
+    width: 25%;
+    margin: 0 auto;
+}
+
+footer {
+    padding: 40px 0;
+    width: 100%;
+    background-color: #252641;
+    color: #83839A;
+}
+
+.sub_newletter_footer {
+    margin: 50px 0;
+}
+
+.sub_newletter_footer form {
+    margin-top: 10px;
+}
+
+.sub_newletter_footer form input {
+    padding: 8px;
+    border-radius: 50px;
+    width: 70%;
+    background-color: transparent;
+    border: 1px solid #83839A;
+}
+
+.sub_newletter_footer form button {
+    padding: 8px 15px;
+    border-radius: 50px;
+    background-color: #545AE7;
+    color: var(--white);
+    font-size: 12px;
+    border: none;
+}
+
+.sub_newletter_footer span {
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #B2B3CF;
+}
+
+.term_and_cond ul {
+    margin: 15px 0;
+}
+
+.term_and_cond ul li:not(:last-child) {
+    border-right: 1px solid #83839A;
+    padding-right: 25px;
+}
+
+.term_and_cond span {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.term_and_cond .copyright {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.top_log_footer .site_logo {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.site_logo {
+    width: 120px;
+}
+
+.top_log_footer span {
+    display: inline-block;
+    color: #B2B3CF;
+    padding-left: 20px;
+    border-left: 1px solid;
+}
+
+.companies {
+    margin: 0;
+    margin-top: 30px;
+}
+
+.companies .company:not(:last-child) {
+    margin-right: 25px;
+}
+
+.company {
+    float: left;
+    margin: 25px;
+}
+
+.feature_one_description ul li span i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    opacity: 0.9;
+    background-color: var(--white);
+}
+
+.feature_one_description ul li {
+    position: relative;
+}
+
+.feature_one_description ul li p {
+    margin-left: 50px;
+}
+
+#foot_logo {
+    margin-right: 30px;
+}
+
+
+/* //Media queries */
+
+@media screen and (max-width: 768px) {
+    .t_nav_list_wrap a:not(:first-child) {
+        display: none;
+    }
+    .t_nav_list_wrap a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .t_nav_list_wrap.responsive {
+        position: relative;
+    }
+    .t_nav_list_wrap.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .t_nav_list_wrap.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .t_nav_list_wrap .nav_item:hover {
+        background-color: var(--orange);
+        border-radius: 50px;
+        color: var(--white);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section_top_header {
+        width: 90%;
+    }
+    .baner_left_content {
+        width: 100% !important;
+    }
+    .banner-right_content {
+        width: 50% !important;
+    }
+    .about_skilline_cont {
+        width: 45%;
+    }
+    .left_news_content_holder,
+    .right_news_list_holder,
+    .platform_wrapper,
+    .integration_description,
+    .feature_five_image_wrapper,
+    .feature_five_description,
+    .feature_four_description,
+    .feature_four_image_wrapper,
+    .feature_three_image_wrapper,
+    .feature_three_description,
+    .video_desc,
+    .feature_one_description,
+    .feature_two_description {
+        width: 100%;
+    }
+    .footer_cont_holder {
+        width: 45%;
+    }
+    .testimonial_section {
+        width: 100%;
+    }
+    .testimonial_cont_img {
+        width: 85%;
+    }
+    .test_img_cont {
+        width: 90%;
+    }
+    .feature_one_image_wrapper {
+        width: 60%;
+    }
+    .platform_wrapper>div:not(:last-child) {
+        margin-right: 75px;
+    }
+    .see_more {
+        margin: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .video_desc {
+        margin-bottom: 20px;
+    }
+    .video_thumbnail_wrapper {
+        width: 80%;
+    }
+    .feature {
+        margin-top: 10px;
+    }
+    .feature_one_description,
+    .feature_two_description,
+    .about_ski_itms_one {
+        margin: 0;
+    }
+    .feature_two_image_wrapper {
+        width: 60%;
+    }
+    .about_ski_itms_one {
+        margin-right: 35px;
+    }
+    .software_items {
+        width: 100%;
+    }
+    .section_content .software_items:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    .image_overlay_content h2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .image_overlay_content button {
+        padding: 10px;
+    }
+    .icon_two {
+        top: 280px !important;
+        width: 215px !important;
+        left: -120px !important;
+    }
+    .icon_three {
+        top: 222px !important;
+        left: 188px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .image_over_text_cont {
+        display: none;
+    }
+    .about_skilline_cont {
+        width: 100%;
+    }
+    .banner-right_content {
+        margin-top: 10px !important;
+    }
+    .footer_cont_holder {
+        width: 85%;
+    }
+    .tools_content {
+        width: 90%;
+    }
+    .testimonial_cont_img img {
+        width: 60%;
+    }
+    .test_img_cont {
+        width: 100%;
+    }
+}
