@@ -1,5 +1,6 @@
 .t_header_blue {
     color: var(--blue);
+    text-size:20px;
 }
 
 .t_header_orange {
